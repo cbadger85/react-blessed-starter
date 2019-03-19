@@ -1,0 +1,32 @@
+{
+  "name": "react-blessed-starter",
+  "version": "1.0.0",
+  "description": "A react-blessed boilerplate with webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "keywords": ["react", "blessed", "react-blessed", "webpack 4"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react": "^16.8.4",
+    "react-blessed": "^0.5.0"
+  },
+  "peerDependencies": {
+    "react-devtools-core": "^3.6.1",
+    "ws": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon-webpack-plugin": "^4.0.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
